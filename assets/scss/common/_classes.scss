@@ -1,0 +1,13 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 250px;
+  height: 60px;
+  background-color: rgba($color-light, 0.1);
+  border: 2px solid $color-light;
+  font-size: 18px;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-family: "Roboto";
+}

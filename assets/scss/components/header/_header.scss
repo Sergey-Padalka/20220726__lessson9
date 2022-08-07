@@ -1,0 +1,48 @@
+.header {
+  position: relative;
+  background-color: $color-primary ;
+  background-image: url(../img/img-header.png);
+  min-height: 100vh;
+  color: $color-light;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-content__title {
+  margin: 0 0 66px;
+  text-align: center;
+}
+
+.header-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: $color-primary;
+  opacity: 0.8;
+}
+
+.header-menu {
+  top: 0;
+  z-index: 2;
+  position: absolute;
+  background-color: red;
+}
+
+.header-content { 
+  top: 0;
+  z-index: 1;
+  position: relative;
+  width: 100%;
+}
+
+.header-content__container {
+  max-width: 1340px;
+  padding: $gap;
+  margin: 0 auto;
+}
+
+.header-content__actions {
+  display: flex;
+  justify-content: center;
+  gap: $gap;
+}
