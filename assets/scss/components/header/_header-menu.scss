@@ -1,0 +1,17 @@
+.header-menu {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  &__container {
+    // display: flex;
+    // align-items: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+    gap: $gap;
+    @extend%container;
+  }
+}
