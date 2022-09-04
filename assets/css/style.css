@@ -752,7 +752,23 @@ p {
 .form-item__input:hover, .form-item__input:focus {
   border-color: rgba(255, 255, 255, 0.15);
   border-bottom-color: #ffffff;
+  outline: 0;
   background-color: rgba(255, 255, 255, 0.15);
+}
+.form-item__input::-webkit-input-placeholder {
+  color: #637588;
+}
+.form-item__input::-moz-placeholder {
+  color: #637588;
+}
+.form-item__input:-ms-input-placeholder {
+  color: #637588;
+}
+.form-item__input::-ms-input-placeholder {
+  color: #637588;
+}
+.form-item__input::placeholder {
+  color: #637588;
 }
 .posts__grid {
   display: grid;
